@@ -10,6 +10,8 @@
 		A330511027CD0653003468C0 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330510F27CD0653003468C0 /* CoinRowView.swift */; };
 		A330511227CD06BF003468C0 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330511127CD06BF003468C0 /* PreviewProvider.swift */; };
 		A330511427CD0C46003468C0 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330511327CD0C46003468C0 /* Double.swift */; };
+		A330511627CE344F003468C0 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330511527CE344F003468C0 /* HomeViewModel.swift */; };
+		A330511927CE3FCD003468C0 /* CoreDataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330511827CE3FCD003468C0 /* CoreDataServices.swift */; };
 		A35AD8DD27C6D74500E88AB0 /* CryptoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35AD8DC27C6D74500E88AB0 /* CryptoAppApp.swift */; };
 		A35AD8DF27C6D74500E88AB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35AD8DE27C6D74500E88AB0 /* ContentView.swift */; };
 		A35AD8E427C6D74700E88AB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A35AD8E327C6D74700E88AB0 /* Preview Assets.xcassets */; };
@@ -25,6 +27,8 @@
 		A330510F27CD0653003468C0 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		A330511127CD06BF003468C0 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		A330511327CD0C46003468C0 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		A330511527CE344F003468C0 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		A330511827CE3FCD003468C0 /* CoreDataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataServices.swift; sourceTree = "<group>"; };
 		A35AD8D927C6D74500E88AB0 /* CryptoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A35AD8DC27C6D74500E88AB0 /* CryptoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAppApp.swift; sourceTree = "<group>"; };
 		A35AD8DE27C6D74500E88AB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A330511727CE3F4A003468C0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A330511827CE3FCD003468C0 /* CoreDataServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		A35AD8D027C6D74500E88AB0 = {
 			isa = PBXGroup;
 			children = (
@@ -69,8 +81,9 @@
 			children = (
 				A35AD8DC27C6D74500E88AB0 /* CryptoAppApp.swift */,
 				A35AD8FC27CA974300E88AB0 /* Models */,
-				A35AD8FB27CA973600E88AB0 /* New Group */,
+				A35AD8FB27CA973600E88AB0 /* Utilities */,
 				A35AD8EC27C6DA2D00E88AB0 /* Extensions */,
+				A330511727CE3F4A003468C0 /* Services */,
 				A35AD8EF27C6DDE700E88AB0 /* Core */,
 				A35AD8DE27C6D74500E88AB0 /* ContentView.swift */,
 				A35AD8EA27C6D87900E88AB0 /* Assets.xcassets */,
@@ -127,6 +140,7 @@
 		A35AD8F227C6DE2400E88AB0 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				A330511527CE344F003468C0 /* HomeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -148,11 +162,11 @@
 			path = CircleButton;
 			sourceTree = "<group>";
 		};
-		A35AD8FB27CA973600E88AB0 /* New Group */ = {
+		A35AD8FB27CA973600E88AB0 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "New Group";
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		A35AD8FC27CA974300E88AB0 /* Models */ = {
@@ -233,7 +247,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A330511927CE3FCD003468C0 /* CoreDataServices.swift in Sources */,
 				A330511027CD0653003468C0 /* CoinRowView.swift in Sources */,
+				A330511627CE344F003468C0 /* HomeViewModel.swift in Sources */,
 				A35AD8F827CA700300E88AB0 /* CircleButtonView.swift in Sources */,
 				A35AD8DF27C6D74500E88AB0 /* ContentView.swift in Sources */,
 				A35AD8F427C6DE3E00E88AB0 /* HomeView.swift in Sources */,
