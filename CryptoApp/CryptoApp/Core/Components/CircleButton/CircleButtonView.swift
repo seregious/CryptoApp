@@ -29,8 +29,15 @@ struct CircleButtonView: View {
 
 struct CircleButton_Previews: PreviewProvider {
     static var previews: some View {
+        Group{
         CircleButtonView(iconImage: "plus")
             .padding()
             .previewLayout(.sizeThatFits)
+
+            CircleButtonView(iconImage: "plus")
+                .padding()
+                .previewLayout(.sizeThatFits)
+                .preferredColorScheme(.dark)
+        }
     }
 }
