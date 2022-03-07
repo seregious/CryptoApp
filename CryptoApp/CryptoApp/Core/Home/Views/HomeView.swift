@@ -84,8 +84,11 @@ extension HomeView {
     private var allCoinsList : some View {
         List {
             ForEach(vm.allCoins) {coin in
+                ZStack{
                 CoinRowView(coin: coin, showHoldingsColumn: false)
                     .listRowInsets(.init(top:10, leading: 0, bottom: 10, trailing: 10))
+                NavigationLink(destination: ChartView(coin: coin)) {}
+                }
             }
         }
         .listStyle(.plain)
