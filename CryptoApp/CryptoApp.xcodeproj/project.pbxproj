@@ -19,6 +19,8 @@
 		A346578B27CEA04500A68205 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A346578A27CEA04500A68205 /* LocalFileManager.swift */; };
 		A346578D27D3C8B700A68205 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A346578C27D3C8B700A68205 /* SearchBarView.swift */; };
 		A346578F27D3CEDA00A68205 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = A346578E27D3CEDA00A68205 /* UIApplication.swift */; };
+		A34657AD27D62C3400A68205 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34657AC27D62C3400A68205 /* ChartView.swift */; };
+		A34657AF27D639F300A68205 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34657AE27D639F200A68205 /* Data.swift */; };
 		A35AD8DD27C6D74500E88AB0 /* CryptoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35AD8DC27C6D74500E88AB0 /* CryptoAppApp.swift */; };
 		A35AD8DF27C6D74500E88AB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35AD8DE27C6D74500E88AB0 /* ContentView.swift */; };
 		A35AD8E427C6D74700E88AB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A35AD8E327C6D74700E88AB0 /* Preview Assets.xcassets */; };
@@ -43,6 +45,8 @@
 		A346578A27CEA04500A68205 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 		A346578C27D3C8B700A68205 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		A346578E27D3CEDA00A68205 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		A34657AC27D62C3400A68205 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		A34657AE27D639F200A68205 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		A35AD8D927C6D74500E88AB0 /* CryptoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A35AD8DC27C6D74500E88AB0 /* CryptoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAppApp.swift; sourceTree = "<group>"; };
 		A35AD8DE27C6D74500E88AB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,6 +88,22 @@
 			path = CoinImage;
 			sourceTree = "<group>";
 		};
+		A34657AA27D62BFE00A68205 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				A34657AB27D62C1700A68205 /* View */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		A34657AB27D62C1700A68205 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A34657AC27D62C3400A68205 /* ChartView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A35AD8D027C6D74500E88AB0 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +129,7 @@
 				A35AD8EC27C6DA2D00E88AB0 /* Extensions */,
 				A330511727CE3F4A003468C0 /* Services */,
 				A35AD8EF27C6DDE700E88AB0 /* Core */,
+				A34657AA27D62BFE00A68205 /* Detail */,
 				A35AD8DE27C6D74500E88AB0 /* ContentView.swift */,
 				A35AD8EA27C6D87900E88AB0 /* Assets.xcassets */,
 				A35AD8E227C6D74700E88AB0 /* Preview Content */,
@@ -131,6 +152,7 @@
 				A330511127CD06BF003468C0 /* PreviewProvider.swift */,
 				A330511327CD0C46003468C0 /* Double.swift */,
 				A346578E27D3CEDA00A68205 /* UIApplication.swift */,
+				A34657AE27D639F200A68205 /* Data.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -279,9 +301,11 @@
 				A330511927CE3FCD003468C0 /* CoreDataServices.swift in Sources */,
 				A330511027CD0653003468C0 /* CoinRowView.swift in Sources */,
 				A330511627CE344F003468C0 /* HomeViewModel.swift in Sources */,
+				A34657AD27D62C3400A68205 /* ChartView.swift in Sources */,
 				A35AD8F827CA700300E88AB0 /* CircleButtonView.swift in Sources */,
 				A346578B27CEA04500A68205 /* LocalFileManager.swift in Sources */,
 				A35AD8DF27C6D74500E88AB0 /* ContentView.swift in Sources */,
+				A34657AF27D639F300A68205 /* Data.swift in Sources */,
 				A346578527CE953600A68205 /* CoinImageView.swift in Sources */,
 				A35AD8F427C6DE3E00E88AB0 /* HomeView.swift in Sources */,
 				A346578F27D3CEDA00A68205 /* UIApplication.swift in Sources */,

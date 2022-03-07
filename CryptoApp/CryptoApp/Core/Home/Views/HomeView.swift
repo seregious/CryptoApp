@@ -62,6 +62,7 @@ extension HomeView {
                 .background(
                     CircleButtonAnimationView(animate: $showPortfolio)
                 )
+                
             Spacer()
             Text(showPortfolio ? "Portfolio" : "Live Prices")
                 .font(.headline)
@@ -116,5 +117,7 @@ extension HomeView {
         .foregroundColor(Color.theme.secondaryText)
         .padding(.horizontal)
     }
+    
+
 }
 
